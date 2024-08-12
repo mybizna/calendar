@@ -26,7 +26,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Modules\\Calendar\\": ""
+      "Modules\\Calendar\\": "app/",
+      "Modules\\Calendar\\Database\\Factories\\": "database/factories/",
+      "Modules\\Calendar\\Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Calendar\\Tests\\": "tests/"
     }
   }
 }
